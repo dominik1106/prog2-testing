@@ -5,12 +5,13 @@ Zuerst compilieren, danach die gesamte Folderstruktur in das Projekt packen, dan
 
 
 Falls man custom Klassen verwenden will, ist wichtig das sowohl toString und equals überschrieben werden
-```
+```java
 @Override
 public String toString() {
   //...
 }
 
+@Override
 public boolean equals() {
   //...
 }

@@ -13,7 +13,7 @@ public class Example {
     Tests tests = new Tests();
   
     //tests.Test(result, expected);
-    tests.Test("Hello", "Hello");
+    tests.test("Hello", "Hello");
   }
 }
 ```

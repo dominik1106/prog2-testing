@@ -13,7 +13,7 @@ public class Tests {
         }
     });
 
-    public <T> boolean Test(T result, T expected) {
+    public <T> boolean test(T result, T expected) {
         StackTraceElement caller = Thread.currentThread().getStackTrace()[2];
 
         System.out.print("In " + caller.getClassName() + "." + caller.getMethodName() + ", line " + caller.getLineNumber() + ": ");
